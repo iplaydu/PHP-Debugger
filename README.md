@@ -2,8 +2,7 @@ Debug PHP
 =============
 
 A complete php debugger class, with support for Exception, Errors, Alerts( from user ), code lines and highlight flags.
-You still do not know where is your problem?
-------------
+
 
 Author	:	Olaf Erlandsen
 
