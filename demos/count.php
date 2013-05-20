@@ -3,7 +3,7 @@ include( dirname(dirname(__FILE__))  . '/src/Debug.php' );
 
 //Catch all
 Debug::register();
-Debug::debug( false );//true = show erros; flase hide errors
+Debug::debug( false );//true = show erros; false hide errors
 
 
 //generate error "Use of undefined constant a - assumed 'a'"
