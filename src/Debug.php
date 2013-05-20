@@ -96,6 +96,7 @@ class Debug
 			'code'		=>	self::_lines( $errfile , $errline ),
 		);
 		self::destructor();
+		return true;
 	}
 	/**
 	*	Exception object parser
@@ -116,6 +117,7 @@ class Debug
 			'code'		=>	self::_lines( $excepcion->getFile() , $excepcion->getLine() ),
 		);
 		self::destructor();
+		return true;
 	}
 	/**
 	*	Shutdown function
@@ -142,6 +144,7 @@ class Debug
 			}
 		}
 		self::destructor();
+		return true;
 	}
 	/**
 	*	Create Dubugger/Print
